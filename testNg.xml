@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite name ="Automation">
+
+<parameter name="username" value="malavika@mst.com"></parameter>
+<parameter name="password" value="jithesh@13"></parameter>
+<parameter name="wrongusername" value="123"></parameter>
+<parameter name="wrongpassword" value="22131"></parameter>
+<parameter name="accname" value="Ayaan"></parameter>
+<parameter name="viewname" value="ViewSeven"></parameter>
+<parameter name="viewuniquename" value="ViewSix"></parameter>
+<parameter name="editviewname" value="ViewSEVEN"></parameter>
+<parameter name="savedreportname" value="ReportSeven"></parameter>
+<parameter name="newoptyname" value="Opty5"></parameter>
+<parameter name="newoptyaccname" value="Ayaan"></parameter>
+
+<!-- <listeners>
+<listener class-name="com.training.listeners.TestListener"></listener>
+</listeners> -->
+
+<test name="login">
+  <classes>
+   <class name = "com.training.testcases.LoginTest"/>
+  </classes>
+</test>
+<test name="Account">
+  <classes>
+   <class name = "com.training.testcases.AccountTest"/>
+  </classes>
+</test>
+<test name="Opportunity">
+  <classes>
+   <class name = "com.training.testcases.OpportunityTest"/>
+  </classes>
+</test>
+<test name="Leads">
+  <classes>
+   <class name = "com.training.testcases.LeadsTest"/>
+  </classes>
+</test>
+<test name="Contacts">
+  <classes>
+   <class name = "com.training.testcases.ContactsTest"/>
+  </classes>
+</test>
+<test name="RandomScenarios">
+  <classes>
+   <class name = "com.training.testcases.RandomScenariosTest"/>
+  </classes>
+</test>
+
+ 
+</suite>

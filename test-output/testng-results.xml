@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="22" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-25T11:52:09 PDT" name="Automation" finished-at="2024-09-25T12:06:06 PDT" duration-ms="837506">
+    <groups>
+    </groups>
+    <test started-at="2024-09-25T11:52:09 PDT" name="login" finished-at="2024-09-25T11:52:40 PDT" duration-ms="31256">
+      <class name="com.training.testcases.LoginTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.LoginTest@738dc9b]" started-at="2024-09-25T11:52:09 PDT" name="beforeMethod" finished-at="2024-09-25T11:52:18 PDT" duration-ms="8871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validatelogin(java.lang.String,java.lang.String)[pri:2, instance:com.training.testcases.LoginTest@738dc9b]" started-at="2024-09-25T11:52:18 PDT" name="validatelogin" finished-at="2024-09-25T11:52:38 PDT" duration-ms="20318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LoginTest@738dc9b]" started-at="2024-09-25T11:52:38 PDT" name="teardown" finished-at="2024-09-25T11:52:40 PDT" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.training.testcases.LoginTest -->
+    </test> <!-- login -->
+    <test started-at="2024-09-25T11:52:40 PDT" name="Account" finished-at="2024-09-25T11:55:18 PDT" duration-ms="157407">
+      <class name="com.training.testcases.AccountTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:52:40 PDT" name="beforeMethod" finished-at="2024-09-25T11:52:47 PDT" duration-ms="6521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createAccountReport(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:52:47 PDT" name="createAccountReport" finished-at="2024-09-25T11:53:30 PDT" duration-ms="43197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ViewSeven]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ViewSix]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ReportSeven]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountReport -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:53:30 PDT" name="teardown" finished-at="2024-09-25T11:53:30 PDT" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:53:30 PDT" name="beforeMethod" finished-at="2024-09-25T11:53:37 PDT" duration-ms="6301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createNewAccount(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:53:37 PDT" name="createNewAccount" finished-at="2024-09-25T11:54:10 PDT" duration-ms="33633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ayaan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:54:10 PDT" name="teardown" finished-at="2024-09-25T11:54:11 PDT" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:54:11 PDT" name="beforeMethod" finished-at="2024-09-25T11:54:17 PDT" duration-ms="6031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createNewView(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:54:17 PDT" name="createNewView" finished-at="2024-09-25T11:54:40 PDT" duration-ms="22542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ViewSeven]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ViewSix]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewView -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:54:40 PDT" name="teardown" finished-at="2024-09-25T11:54:40 PDT" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:54:40 PDT" name="beforeMethod" finished-at="2024-09-25T11:54:46 PDT" duration-ms="6123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="editView(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:54:46 PDT" name="editView" finished-at="2024-09-25T11:54:55 PDT" duration-ms="8470" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ViewSeven]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ViewSix]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ViewSEVEN]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: ViewSeven
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: ViewSeven
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.training.pages.AccountPage.selectEditView(AccountPage.java:177)
+at com.training.testcases.AccountTest.editView(AccountTest.java:121)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editView -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:54:55 PDT" name="teardown" finished-at="2024-09-25T11:54:56 PDT" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:54:56 PDT" name="beforeMethod" finished-at="2024-09-25T11:55:02 PDT" duration-ms="5889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="mergeAccounts(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:55:02 PDT" name="mergeAccounts" finished-at="2024-09-25T11:55:17 PDT" duration-ms="14996" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='save']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8a116b3e4689430f7c8287d1b78d50f
+*** Element info: {Using=xpath, value=//input[@name='save']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='save']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8a116b3e4689430f7c8287d1b78d50f
+*** Element info: {Using=xpath, value=//input[@name='save']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.training.pages.AccountPage.clickMergeAcc(AccountPage.java:278)
+at com.training.testcases.AccountTest.mergeAccounts(AccountTest.java:152)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeAccounts -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.AccountTest@268f106e]" started-at="2024-09-25T11:55:17 PDT" name="teardown" finished-at="2024-09-25T11:55:18 PDT" duration-ms="984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.training.testcases.AccountTest -->
+    </test> <!-- Account -->
+    <test started-at="2024-09-25T11:55:18 PDT" name="Opportunity" finished-at="2024-09-25T11:58:03 PDT" duration-ms="165442">
+      <class name="com.training.testcases.OpportunityTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:55:18 PDT" name="beforeMethod" finished-at="2024-09-25T11:55:24 PDT" duration-ms="5902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="CreateNewOpportunity(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:55:24 PDT" name="CreateNewOpportunity" finished-at="2024-09-25T11:55:43 PDT" duration-ms="19524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Opty5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ayaan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewOpportunity -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:55:43 PDT" name="teardown" finished-at="2024-09-25T11:55:44 PDT" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:55:44 PDT" name="beforeMethod" finished-at="2024-09-25T11:55:50 PDT" duration-ms="6361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="OpportunitiesDropdown(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:55:50 PDT" name="OpportunitiesDropdown" finished-at="2024-09-25T11:56:18 PDT" duration-ms="27692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpportunitiesDropdown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:56:18 PDT" name="teardown" finished-at="2024-09-25T11:56:18 PDT" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:56:18 PDT" name="beforeMethod" finished-at="2024-09-25T11:56:25 PDT" duration-ms="6333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="OpportunitiesPipeline(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:56:25 PDT" name="OpportunitiesPipeline" finished-at="2024-09-25T11:56:52 PDT" duration-ms="26986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpportunitiesPipeline -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:56:52 PDT" name="teardown" finished-at="2024-09-25T11:56:52 PDT" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:56:52 PDT" name="beforeMethod" finished-at="2024-09-25T11:56:59 PDT" duration-ms="6280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="QSummaryReport(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:56:59 PDT" name="QSummaryReport" finished-at="2024-09-25T11:57:26 PDT" duration-ms="26947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QSummaryReport -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:57:26 PDT" name="teardown" finished-at="2024-09-25T11:57:27 PDT" duration-ms="1326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:57:27 PDT" name="beforeMethod" finished-at="2024-09-25T11:57:33 PDT" duration-ms="6085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="StuckOpportunities(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:57:33 PDT" name="StuckOpportunities" finished-at="2024-09-25T11:58:02 PDT" duration-ms="29453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StuckOpportunities -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.OpportunityTest@7c37508a]" started-at="2024-09-25T11:58:02 PDT" name="teardown" finished-at="2024-09-25T11:58:03 PDT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.training.testcases.OpportunityTest -->
+    </test> <!-- Opportunity -->
+    <test started-at="2024-09-25T11:58:03 PDT" name="Leads" finished-at="2024-09-25T11:59:57 PDT" duration-ms="114179">
+      <class name="com.training.testcases.LeadsTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:58:03 PDT" name="beforeMethod" finished-at="2024-09-25T11:58:10 PDT" duration-ms="6335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="GoToLeads(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:58:10 PDT" name="GoToLeads" finished-at="2024-09-25T11:58:19 PDT" duration-ms="9339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToLeads -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:58:19 PDT" name="teardown" finished-at="2024-09-25T11:58:19 PDT" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:58:19 PDT" name="beforeMethod" finished-at="2024-09-25T11:58:25 PDT" duration-ms="6134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="GoToLeadsDropDown(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:58:25 PDT" name="GoToLeadsDropDown" finished-at="2024-09-25T11:58:34 PDT" duration-ms="8815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToLeadsDropDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:58:34 PDT" name="teardown" finished-at="2024-09-25T11:58:39 PDT" duration-ms="4573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:58:39 PDT" name="beforeMethod" finished-at="2024-09-25T11:58:45 PDT" duration-ms="6481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createNewLead(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:58:45 PDT" name="createNewLead" finished-at="2024-09-25T11:58:59 PDT" duration-ms="13333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewLead -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:58:59 PDT" name="teardown" finished-at="2024-09-25T11:58:59 PDT" duration-ms="755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:58:59 PDT" name="beforeMethod" finished-at="2024-09-25T11:59:06 PDT" duration-ms="6357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="defaultView(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:59:06 PDT" name="defaultView" finished-at="2024-09-25T11:59:24 PDT" duration-ms="17808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultView -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:59:24 PDT" name="teardown" finished-at="2024-09-25T11:59:25 PDT" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:59:25 PDT" name="beforeMethod" finished-at="2024-09-25T11:59:31 PDT" duration-ms="6354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="todaysLeads(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:59:31 PDT" name="todaysLeads" finished-at="2024-09-25T11:59:57 PDT" duration-ms="25717" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@value=' Go! ']' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@value=' Go! ']' (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.training.base.BasePage.waitforElement(BasePage.java:20)
+at com.training.pages.LeadsPage.clickonLeadsGoButton(LeadsPage.java:69)
+at com.training.testcases.LeadsTest.todaysLeads(LeadsTest.java:141)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@value=' Go! ']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60968}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1449e45f8433526ebaabecde2801685
+*** Element info: {Using=xpath, value=//input[@value=' Go! ']}
+at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todaysLeads -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.LeadsTest@359df09a]" started-at="2024-09-25T11:59:57 PDT" name="teardown" finished-at="2024-09-25T11:59:57 PDT" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.training.testcases.LeadsTest -->
+    </test> <!-- Leads -->
+    <test started-at="2024-09-25T11:59:58 PDT" name="Contacts" finished-at="2024-09-25T12:03:26 PDT" duration-ms="208935">
+      <class name="com.training.testcases.ContactsTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T11:59:58 PDT" name="beforeMethod" finished-at="2024-09-25T12:00:03 PDT" duration-ms="5940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createNewAccount(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:00:03 PDT" name="createNewAccount" finished-at="2024-09-25T12:00:23 PDT" duration-ms="19522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:00:23 PDT" name="teardown" finished-at="2024-09-25T12:00:24 PDT" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:00:24 PDT" name="beforeMethod" finished-at="2024-09-25T12:00:30 PDT" duration-ms="6075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createNewContactError(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:00:30 PDT" name="createNewContactError" finished-at="2024-09-25T12:00:43 PDT" duration-ms="12243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewContactError -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:00:43 PDT" name="teardown" finished-at="2024-09-25T12:00:43 PDT" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:00:43 PDT" name="beforeMethod" finished-at="2024-09-25T12:00:49 PDT" duration-ms="5601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createNewViewinContactPage(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:00:49 PDT" name="createNewViewinContactPage" finished-at="2024-09-25T12:01:08 PDT" duration-ms="19179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewViewinContactPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:01:08 PDT" name="teardown" finished-at="2024-09-25T12:01:08 PDT" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:01:08 PDT" name="beforeMethod" finished-at="2024-09-25T12:01:14 PDT" duration-ms="5996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="gotoMyContactsView(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:01:14 PDT" name="gotoMyContactsView" finished-at="2024-09-25T12:01:41 PDT" duration-ms="26449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotoMyContactsView -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:01:41 PDT" name="teardown" finished-at="2024-09-25T12:01:42 PDT" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:01:42 PDT" name="beforeMethod" finished-at="2024-09-25T12:01:48 PDT" duration-ms="6337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="newViewinContactPageCancel(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:01:48 PDT" name="newViewinContactPageCancel" finished-at="2024-09-25T12:02:00 PDT" duration-ms="11851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newViewinContactPageCancel -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:02:00 PDT" name="teardown" finished-at="2024-09-25T12:02:01 PDT" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:02:01 PDT" name="beforeMethod" finished-at="2024-09-25T12:02:07 PDT" duration-ms="6378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="newViewinContactPageError(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:02:07 PDT" name="newViewinContactPageError" finished-at="2024-09-25T12:02:33 PDT" duration-ms="25929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newViewinContactPageError -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:02:33 PDT" name="teardown" finished-at="2024-09-25T12:02:33 PDT" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:02:33 PDT" name="beforeMethod" finished-at="2024-09-25T12:02:40 PDT" duration-ms="6224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectRecentlyCreated(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:02:40 PDT" name="selectRecentlyCreated" finished-at="2024-09-25T12:03:04 PDT" duration-ms="23992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRecentlyCreated -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:03:04 PDT" name="teardown" finished-at="2024-09-25T12:03:04 PDT" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:03:04 PDT" name="beforeMethod" finished-at="2024-09-25T12:03:11 PDT" duration-ms="6421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="viewContactName(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:03:11 PDT" name="viewContactName" finished-at="2024-09-25T12:03:26 PDT" duration-ms="15227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewContactName -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.ContactsTest@35841320]" started-at="2024-09-25T12:03:26 PDT" name="teardown" finished-at="2024-09-25T12:03:26 PDT" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.training.testcases.ContactsTest -->
+    </test> <!-- Contacts -->
+    <test started-at="2024-09-25T12:03:26 PDT" name="RandomScenarios" finished-at="2024-09-25T12:06:06 PDT" duration-ms="159803">
+      <class name="com.training.testcases.RandomScenariosTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:03:26 PDT" name="beforeMethod" finished-at="2024-09-25T12:03:33 PDT" duration-ms="6212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="blockEventCalendar(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:03:33 PDT" name="blockEventCalendar" finished-at="2024-09-25T12:03:48 PDT" duration-ms="15608" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/00U/c?md3=220&md0=2024']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bab044e16314088a87f583c528ef8ced
+*** Element info: {Using=xpath, value=//a[@href='/00U/c?md3=220&md0=2024']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/00U/c?md3=220&md0=2024']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bab044e16314088a87f583c528ef8ced
+*** Element info: {Using=xpath, value=//a[@href='/00U/c?md3=220&md0=2024']}
+at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.training.pages.RandomScenariosPage.clickCurrDate(RandomScenariosPage.java:119)
+at com.training.testcases.RandomScenariosTest.blockEventCalendar(RandomScenariosTest.java:140)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blockEventCalendar -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:03:48 PDT" name="teardown" finished-at="2024-09-25T12:03:49 PDT" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:03:49 PDT" name="beforeMethod" finished-at="2024-09-25T12:03:55 PDT" duration-ms="6243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="blockRecurrence(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:03:55 PDT" name="blockRecurrence" finished-at="2024-09-25T12:04:24 PDT" duration-ms="29420" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/00U/c?md3=220&md0=2024']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24199d245811cebd6268b97077c9d4cd
+*** Element info: {Using=xpath, value=//a[@href='/00U/c?md3=220&md0=2024']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/00U/c?md3=220&md0=2024']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24199d245811cebd6268b97077c9d4cd
+*** Element info: {Using=xpath, value=//a[@href='/00U/c?md3=220&md0=2024']}
+at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.training.pages.RandomScenariosPage.clickCurrDate(RandomScenariosPage.java:119)
+at com.training.testcases.RandomScenariosTest.blockRecurrence(RandomScenariosTest.java:165)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blockRecurrence -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:04:24 PDT" name="teardown" finished-at="2024-09-25T12:04:26 PDT" duration-ms="1664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:04:26 PDT" name="beforeMethod" finished-at="2024-09-25T12:04:32 PDT" duration-ms="6249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="createNewAccount(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:04:32 PDT" name="createNewAccount" finished-at="2024-09-25T12:05:00 PDT" duration-ms="27199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccount -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:05:00 PDT" name="teardown" finished-at="2024-09-25T12:05:01 PDT" duration-ms="941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:05:01 PDT" name="beforeMethod" finished-at="2024-09-25T12:05:07 PDT" duration-ms="6337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyEditedLastName(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:05:07 PDT" name="verifyEditedLastName" finished-at="2024-09-25T12:05:33 PDT" duration-ms="26105" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Malavika Sreedhar Tankala']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c936477dd9a42f62f7dc119c1ee65d7
+*** Element info: {Using=xpath, value=//a[text()='Malavika Sreedhar Tankala']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Malavika Sreedhar Tankala']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c936477dd9a42f62f7dc119c1ee65d7
+*** Element info: {Using=xpath, value=//a[text()='Malavika Sreedhar Tankala']}
+at jdk.internal.reflect.GeneratedConstructorAccessor28.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy14.click(Unknown Source)
+at com.training.pages.RandomScenariosPage.clickfnamelname(RandomScenariosPage.java:86)
+at com.training.testcases.RandomScenariosTest.verifyEditedLastName(RandomScenariosTest.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditedLastName -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:05:33 PDT" name="teardown" finished-at="2024-09-25T12:05:34 PDT" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:05:34 PDT" name="beforeMethod" finished-at="2024-09-25T12:05:40 PDT" duration-ms="6289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTabCustomization(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:05:40 PDT" name="verifyTabCustomization" finished-at="2024-09-25T12:06:06 PDT" duration-ms="25667" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[malavika@mst.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jithesh@13]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Subscriptions
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Subscriptions
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.training.pages.RandomScenariosPage.selectTabtoRemove(RandomScenariosPage.java:66)
+at com.training.testcases.RandomScenariosTest.verifyTabCustomization(RandomScenariosTest.java:105)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTabCustomization -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcases.RandomScenariosTest@533bda92]" started-at="2024-09-25T12:06:06 PDT" name="teardown" finished-at="2024-09-25T12:06:06 PDT" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.training.testcases.RandomScenariosTest -->
+    </test> <!-- RandomScenarios -->
+  </suite> <!-- Automation -->
+</testng-results>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="jithesh@13"/>
+  <parameter name="viewname" value="ViewSeven"/>
+  <parameter name="savedreportname" value="ReportSeven"/>
+  <parameter name="wrongpassword" value="22131"/>
+  <parameter name="newoptyaccname" value="Ayaan"/>
+  <parameter name="newoptyname" value="Opty5"/>
+  <parameter name="viewuniquename" value="ViewSix"/>
+  <parameter name="editviewname" value="ViewSEVEN"/>
+  <parameter name="wrongusername" value="123"/>
+  <parameter name="accname" value="Ayaan"/>
+  <parameter name="username" value="malavika@mst.com"/>
+  <test thread-count="5" name="Account(failed)">
+    <classes>
+      <class name="com.training.testcases.AccountTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="editView" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="mergeAccounts" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.training.testcases.AccountTest -->
+    </classes>
+  </test> <!-- Account(failed) -->
+  <test thread-count="5" name="Leads(failed)">
+    <classes>
+      <class name="com.training.testcases.LeadsTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="todaysLeads" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.training.testcases.LeadsTest -->
+    </classes>
+  </test> <!-- Leads(failed) -->
+  <test thread-count="5" name="RandomScenarios(failed)">
+    <classes>
+      <class name="com.training.testcases.RandomScenariosTest">
+        <methods>
+          <include name="blockEventCalendar" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="verifyEditedLastName" invocation-numbers="0"/>
+          <include name="blockRecurrence" invocation-numbers="0"/>
+          <include name="verifyTabCustomization" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.training.testcases.RandomScenariosTest -->
+    </classes>
+  </test> <!-- RandomScenarios(failed) -->
+</suite> <!-- Failed suite [Automation] -->

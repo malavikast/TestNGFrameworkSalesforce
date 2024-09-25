@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Automation</th></tr>
+<tr><td><a href="#t0">login</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">31,256</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Account</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">157,407</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Opportunity</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">165,442</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Leads</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">114,179</td><td></td><td></td></tr>
+<tr><td><a href="#t4">Contacts</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">208,935</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">RandomScenarios</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">159,803</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">22</th><th class="num">0</th><th class="num">0</th><th class="num attn">7</th><th class="num">837,022</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.training.testcases.LoginTest</td><td><a href="#m0">validatelogin</a></td><td rowspan="1">1727290338192</td><td rowspan="1">20318</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Account &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.training.testcases.AccountTest</td><td><a href="#m1">editView</a></td><td rowspan="1">1727290486995</td><td rowspan="1">8470</td></tr><tr class="failedeven"><td><a href="#m2">mergeAccounts</a></td><td rowspan="1">1727290502067</td><td rowspan="1">14996</td></tr><tr><th colspan="4">Account &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.training.testcases.AccountTest</td><td><a href="#m3">createAccountReport</a></td><td rowspan="1">1727290367178</td><td rowspan="1">43197</td></tr><tr class="passedeven"><td><a href="#m4">createNewAccount</a></td><td rowspan="1">1727290417147</td><td rowspan="1">33633</td></tr><tr class="passedeven"><td><a href="#m5">createNewView</a></td><td rowspan="1">1727290457754</td><td rowspan="1">22542</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Opportunity &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.training.testcases.OpportunityTest</td><td><a href="#m6">CreateNewOpportunity</a></td><td rowspan="1">1727290524088</td><td rowspan="1">19524</td></tr><tr class="passedeven"><td><a href="#m7">OpportunitiesDropdown</a></td><td rowspan="1">1727290550737</td><td rowspan="1">27692</td></tr><tr class="passedeven"><td><a href="#m8">OpportunitiesPipeline</a></td><td rowspan="1">1727290585213</td><td rowspan="1">26986</td></tr><tr class="passedeven"><td><a href="#m9">QSummaryReport</a></td><td rowspan="1">1727290619173</td><td rowspan="1">26947</td></tr><tr class="passedeven"><td><a href="#m10">StuckOpportunities</a></td><td rowspan="1">1727290653540</td><td rowspan="1">29453</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Leads &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.training.testcases.LeadsTest</td><td><a href="#m11">todaysLeads</a></td><td rowspan="1">1727290771556</td><td rowspan="1">25717</td></tr><tr><th colspan="4">Leads &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.training.testcases.LeadsTest</td><td><a href="#m12">GoToLeads</a></td><td rowspan="1">1727290690077</td><td rowspan="1">9339</td></tr><tr class="passedeven"><td><a href="#m13">GoToLeadsDropDown</a></td><td rowspan="1">1727290705985</td><td rowspan="1">8815</td></tr><tr class="passedeven"><td><a href="#m14">createNewLead</a></td><td rowspan="1">1727290725861</td><td rowspan="1">13333</td></tr><tr class="passedeven"><td><a href="#m15">defaultView</a></td><td rowspan="1">1727290746323</td><td rowspan="1">17808</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">Contacts &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.training.testcases.ContactsTest</td><td><a href="#m16">createNewAccount</a></td><td rowspan="1">1727290803963</td><td rowspan="1">19522</td></tr><tr class="passedeven"><td><a href="#m17">createNewContactError</a></td><td rowspan="1">1727290830817</td><td rowspan="1">12243</td></tr><tr class="passedeven"><td><a href="#m18">createNewViewinContactPage</a></td><td rowspan="1">1727290849104</td><td rowspan="1">19179</td></tr><tr class="passedeven"><td><a href="#m19">gotoMyContactsView</a></td><td rowspan="1">1727290874901</td><td rowspan="1">26449</td></tr><tr class="passedeven"><td><a href="#m20">newViewinContactPageCancel</a></td><td rowspan="1">1727290908370</td><td rowspan="1">11851</td></tr><tr class="passedeven"><td><a href="#m21">newViewinContactPageError</a></td><td rowspan="1">1727290927608</td><td rowspan="1">25929</td></tr><tr class="passedeven"><td><a href="#m22">selectRecentlyCreated</a></td><td rowspan="1">1727290960184</td><td rowspan="1">23992</td></tr><tr class="passedeven"><td><a href="#m23">viewContactName</a></td><td rowspan="1">1727290991002</td><td rowspan="1">15227</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">RandomScenarios &#8212; failed</th></tr><tr class="failedeven"><td rowspan="4">com.training.testcases.RandomScenariosTest</td><td><a href="#m24">blockEventCalendar</a></td><td rowspan="1">1727291013206</td><td rowspan="1">15608</td></tr><tr class="failedeven"><td><a href="#m25">blockRecurrence</a></td><td rowspan="1">1727291035561</td><td rowspan="1">29420</td></tr><tr class="failedeven"><td><a href="#m26">verifyEditedLastName</a></td><td rowspan="1">1727291107394</td><td rowspan="1">26105</td></tr><tr class="failedeven"><td><a href="#m27">verifyTabCustomization</a></td><td rowspan="1">1727291140479</td><td rowspan="1">25667</td></tr><tr><th colspan="4">RandomScenarios &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.training.testcases.RandomScenariosTest</td><td><a href="#m28">createNewAccount</a></td><td rowspan="1">1727291072901</td><td rowspan="1">27199</td></tr></tbody>
+</table>
+<h2>login</h2><h3 id="m0">com.training.testcases.LoginTest#validatelogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Account</h2><h3 id="m1">com.training.testcases.AccountTest#editView</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td><td>ViewSeven</td><td>ViewSix</td><td>ViewSEVEN</td></tr><tr><th colspan="5">Exception</th></tr><tr><td colspan="5"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: ViewSeven
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.training.pages.AccountPage.selectEditView(AccountPage.java:177)
+	at com.training.testcases.AccountTest.editView(AccountTest.java:121)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.training.testcases.AccountTest#mergeAccounts</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;save&apos;]&quot;}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8a116b3e4689430f7c8287d1b78d50f
+*** Element info: {Using=xpath, value=//input[@name=&apos;save&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.training.pages.AccountPage.clickMergeAcc(AccountPage.java:278)
+	at com.training.testcases.AccountTest.mergeAccounts(AccountTest.java:152)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.training.testcases.AccountTest#createAccountReport</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td><td>ViewSeven</td><td>ViewSix</td><td>ReportSeven</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.training.testcases.AccountTest#createNewAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td><td>Ayaan</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.training.testcases.AccountTest#createNewView</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td><td>ViewSeven</td><td>ViewSix</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Opportunity</h2><h3 id="m6">com.training.testcases.OpportunityTest#CreateNewOpportunity</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td><td>Opty5</td><td>Ayaan</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.training.testcases.OpportunityTest#OpportunitiesDropdown</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.training.testcases.OpportunityTest#OpportunitiesPipeline</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.training.testcases.OpportunityTest#QSummaryReport</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.training.testcases.OpportunityTest#StuckOpportunities</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Leads</h2><h3 id="m11">com.training.testcases.LeadsTest#todaysLeads</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@value=&apos; Go! &apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.training.base.BasePage.waitforElement(BasePage.java:20)
+	at com.training.pages.LeadsPage.clickonLeadsGoButton(LeadsPage.java:69)
+	at com.training.testcases.LeadsTest.todaysLeads(LeadsTest.java:141)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@value=&apos; Go! &apos;]&quot;}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60968}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d1449e45f8433526ebaabecde2801685
+*** Element info: {Using=xpath, value=//input[@value=&apos; Go! &apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 31 more
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.training.testcases.LeadsTest#GoToLeads</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.training.testcases.LeadsTest#GoToLeadsDropDown</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.training.testcases.LeadsTest#createNewLead</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.training.testcases.LeadsTest#defaultView</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Contacts</h2><h3 id="m16">com.training.testcases.ContactsTest#createNewAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.training.testcases.ContactsTest#createNewContactError</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.training.testcases.ContactsTest#createNewViewinContactPage</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.training.testcases.ContactsTest#gotoMyContactsView</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">com.training.testcases.ContactsTest#newViewinContactPageCancel</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">com.training.testcases.ContactsTest#newViewinContactPageError</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">com.training.testcases.ContactsTest#selectRecentlyCreated</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">com.training.testcases.ContactsTest#viewContactName</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>RandomScenarios</h2><h3 id="m24">com.training.testcases.RandomScenariosTest#blockEventCalendar</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/00U/c?md3=220&amp;md0=2024&apos;]&quot;}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61456}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bab044e16314088a87f583c528ef8ced
+*** Element info: {Using=xpath, value=//a[@href=&apos;/00U/c?md3=220&amp;md0=2024&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.training.pages.RandomScenariosPage.clickCurrDate(RandomScenariosPage.java:119)
+	at com.training.testcases.RandomScenariosTest.blockEventCalendar(RandomScenariosTest.java:140)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">com.training.testcases.RandomScenariosTest#blockRecurrence</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/00U/c?md3=220&amp;md0=2024&apos;]&quot;}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24199d245811cebd6268b97077c9d4cd
+*** Element info: {Using=xpath, value=//a[@href=&apos;/00U/c?md3=220&amp;md0=2024&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.training.pages.RandomScenariosPage.clickCurrDate(RandomScenariosPage.java:119)
+	at com.training.testcases.RandomScenariosTest.blockRecurrence(RandomScenariosTest.java:165)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">com.training.testcases.RandomScenariosTest#verifyEditedLastName</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Malavika Sreedhar Tankala&apos;]&quot;}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c936477dd9a42f62f7dc119c1ee65d7
+*** Element info: {Using=xpath, value=//a[text()=&apos;Malavika Sreedhar Tankala&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.training.pages.RandomScenariosPage.clickfnamelname(RandomScenariosPage.java:86)
+	at com.training.testcases.RandomScenariosTest.verifyEditedLastName(RandomScenariosTest.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m27">com.training.testcases.RandomScenariosTest#verifyTabCustomization</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Subscriptions
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.training.pages.RandomScenariosPage.selectTabtoRemove(RandomScenariosPage.java:66)
+	at com.training.testcases.RandomScenariosTest.verifyTabCustomization(RandomScenariosTest.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m28">com.training.testcases.RandomScenariosTest#createNewAccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>malavika@mst.com</td><td>jithesh@13</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
