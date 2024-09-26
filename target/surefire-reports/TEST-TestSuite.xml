@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="707.544" tests="36" errors="0" skipped="9" failures="7">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="/Users/malavikastankala/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/malavikastankala/eclipse-workspace/TestNGFrameworkSalesforce"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/malavikastankala/eclipse-workspace/TestNGFrameworkSalesforce"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/_l/9y0ldsps16qcbwndm_0r5m9w0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/malavikastankala/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf12160302759120962966.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/malavikastankala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/malavikastankala"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="malavikastankala"/>
+    <property name="java.class.path" value="/Users/malavikastankala/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="/Users/malavikastankala/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.1.v20201027-0507/jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/malavikastankala/eclipse-workspace/TestNGFrameworkSalesforce/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="validatelogin" classname="com.training.testcases.LoginTest" time="21.846"/>
+  <testcase name="createAccountReport" classname="com.training.testcases.AccountTest" time="38.666"/>
+  <testcase name="createNewAccount" classname="com.training.testcases.AccountTest" time="22.271"/>
+  <testcase name="createNewView" classname="com.training.testcases.AccountTest" time="25.831"/>
+  <testcase name="editView" classname="com.training.testcases.AccountTest" time="10.193">
+    <failure message="Cannot locate element with text: ViewSeven&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: ViewSeven
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: driver.version: unknown
+	at com.training.testcases.AccountTest.editView(AccountTest.java:121)
+</failure>
+    <system-out><![CDATA[*** Executed createNewView test successfully...
+/
+*** Running test method editView...
+2024-09-25 13:12:50 INFO  Log:17 - ****************           -S-T-A-R-T-Edit View Test Started       ****************
+2024-09-25 13:12:51 INFO  Log:31 - Sucessfully entered the usernamemalavika@mst.com
+2024-09-25 13:12:51 INFO  Log:31 - Sucessfully entered the passwordjithesh@13
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 129.0.6668.70 (df87d5cf12b1397be7495a04cab2db6239b227a8-refs/branch-heads/6668@{#1420}) on port 29464
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 29464.
+Sep 25, 2024 1:12:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="mergeAccounts" classname="com.training.testcases.AccountTest" time="14.343">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;save&apos;]&quot;}&#10;  (Session info: chrome=129.0.6668.59)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f732a182438c3c92109bdf433a0d1b73&#10;*** Element info: {Using=xpath, value=//input[@name=&apos;save&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='save']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f732a182438c3c92109bdf433a0d1b73
+*** Element info: {Using=xpath, value=//input[@name='save']}
+	at com.training.testcases.AccountTest.mergeAccounts(AccountTest.java:152)
+</failure>
+    <system-out><![CDATA[*** Test execution editView failed...
+/
+*** Running test method mergeAccounts...
+2024-09-25 13:13:07 INFO  Log:31 - Sucessfully entered the usernamemalavika@mst.com
+2024-09-25 13:13:08 INFO  Log:31 - Sucessfully entered the passwordjithesh@13
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 129.0.6668.70 (df87d5cf12b1397be7495a04cab2db6239b227a8-refs/branch-heads/6668@{#1420}) on port 19241
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 19241.
+Sep 25, 2024 1:13:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="CreateNewOpportunity" classname="com.training.testcases.OpportunityTest" time="14.537"/>
+  <testcase name="OpportunitiesDropdown" classname="com.training.testcases.OpportunityTest" time="25.823"/>
+  <testcase name="OpportunitiesPipeline" classname="com.training.testcases.OpportunityTest" time="25.225"/>
+  <testcase name="QSummaryReport" classname="com.training.testcases.OpportunityTest" time="12.375"/>
+  <testcase name="StuckOpportunities" classname="com.training.testcases.OpportunityTest" time="12.06"/>
+  <testcase name="GoToLeads" classname="com.training.testcases.LeadsTest" time="10.108"/>
+  <testcase name="GoToLeadsDropDown" classname="com.training.testcases.LeadsTest" time="22.303"/>
+  <testcase name="teardown" classname="com.training.testcases.LeadsTest" time="42.57">
+    <failure message="unknown error: failed to close window in 20 seconds&#10;  (Session info: chrome=129.0.6668.59)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63910}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7f94caec34e06f58289b7e1c6af6907e" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: failed to close window in 20 seconds
+  (Session info: chrome=129.0.6668.59)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63910}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f94caec34e06f58289b7e1c6af6907e
+	at com.training.testcases.LeadsTest.teardown(LeadsTest.java:167)
+</failure>
+    <system-out><![CDATA[*** Executed GoToLeadsDropDown test successfully...
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.training.testcases.LeadsTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[*** Test createNewLead skipped...
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.training.testcases.LeadsTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[*** Test defaultView skipped...
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="com.training.testcases.LeadsTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[*** Test todaysLeads skipped...
+]]></system-out>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.training.testcases.LeadsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.training.testcases.LeadsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="beforeMethod" classname="com.training.testcases.LeadsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="createNewLead" classname="com.training.testcases.LeadsTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[*** Running test method createNewLead...
+]]></system-out>
+  </testcase>
+  <testcase name="defaultView" classname="com.training.testcases.LeadsTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[*** Running test method defaultView...
+]]></system-out>
+  </testcase>
+  <testcase name="todaysLeads" classname="com.training.testcases.LeadsTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[*** Running test method todaysLeads...
+]]></system-out>
+  </testcase>
+  <testcase name="createNewAccount" classname="com.training.testcases.ContactsTest" time="26.207"/>
+  <testcase name="createNewContactError" classname="com.training.testcases.ContactsTest" time="10.44"/>
+  <testcase name="createNewViewinContactPage" classname="com.training.testcases.ContactsTest" time="25.141"/>
+  <testcase name="gotoMyContactsView" classname="com.training.testcases.ContactsTest" time="9.291"/>
+  <testcase name="newViewinContactPageCancel" classname="com.training.testcases.ContactsTest" time="25.282"/>
+  <testcase name="newViewinContactPageError" classname="com.training.testcases.ContactsTest" time="11.568"/>
+  <testcase name="selectRecentlyCreated" classname="com.training.testcases.ContactsTest" time="24.216"/>
+  <testcase name="viewContactName" classname="com.training.testcases.ContactsTest" time="25.973"/>
+  <testcase name="blockEventCalendar" classname="com.training.testcases.RandomScenariosTest" time="13.123">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/00U/c?md3=220&amp;md0=2024&apos;]&quot;}&#10;  (Session info: chrome=129.0.6668.59)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2e0b379acb6d3fdff041c0dd8653f56c&#10;*** Element info: {Using=xpath, value=//a[@href=&apos;/00U/c?md3=220&amp;md0=2024&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/00U/c?md3=220&md0=2024']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e0b379acb6d3fdff041c0dd8653f56c
+*** Element info: {Using=xpath, value=//a[@href='/00U/c?md3=220&md0=2024']}
+	at com.training.testcases.RandomScenariosTest.blockEventCalendar(RandomScenariosTest.java:140)
+]]></failure>
+    <system-out><![CDATA[*** Executed viewContactName test successfully...
+*** Test Suite Contacts ending ***
+*** Test Suite RandomScenarios started ***
+/
+*** Running test method blockEventCalendar...
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 129.0.6668.70 (df87d5cf12b1397be7495a04cab2db6239b227a8-refs/branch-heads/6668@{#1420}) on port 20762
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 20762.
+Sep 25, 2024 1:20:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="blockRecurrence" classname="com.training.testcases.RandomScenariosTest" time="27.831">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;/00U/c?md3=220&amp;md0=2024&apos;]&quot;}&#10;  (Session info: chrome=129.0.6668.59)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1a9a35be8eda37ab8f959e5a2961dbbc&#10;*** Element info: {Using=xpath, value=//a[@href=&apos;/00U/c?md3=220&amp;md0=2024&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/00U/c?md3=220&md0=2024']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64421}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a9a35be8eda37ab8f959e5a2961dbbc
+*** Element info: {Using=xpath, value=//a[@href='/00U/c?md3=220&md0=2024']}
+	at com.training.testcases.RandomScenariosTest.blockRecurrence(RandomScenariosTest.java:165)
+]]></failure>
+    <system-out><![CDATA[*** Test execution blockEventCalendar failed...
+/
+*** Running test method blockRecurrence...
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 129.0.6668.70 (df87d5cf12b1397be7495a04cab2db6239b227a8-refs/branch-heads/6668@{#1420}) on port 7963
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 7963.
+Sep 25, 2024 1:20:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="createNewAccount" classname="com.training.testcases.RandomScenariosTest" time="13.843"/>
+  <testcase name="verifyEditedLastName" classname="com.training.testcases.RandomScenariosTest" time="10.354">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()=&apos;Malavika Sreedhar Tankala&apos;]&quot;}&#10;  (Session info: chrome=129.0.6668.59)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b96844fdbd381d7923c32f3747c91eb4&#10;*** Element info: {Using=xpath, value=//a[text()=&apos;Malavika Sreedhar Tankala&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Malavika Sreedhar Tankala']"}
+  (Session info: chrome=129.0.6668.59)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.59, chrome: {chromedriverVersion: 129.0.6668.70 (df87d5cf12b1..., userDataDir: /var/folders/_l/9y0ldsps16q...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b96844fdbd381d7923c32f3747c91eb4
+*** Element info: {Using=xpath, value=//a[text()='Malavika Sreedhar Tankala']}
+	at com.training.testcases.RandomScenariosTest.verifyEditedLastName(RandomScenariosTest.java:79)
+</failure>
+    <system-out><![CDATA[*** Executed createNewAccount test successfully...
+/
+*** Running test method verifyEditedLastName...
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 129.0.6668.70 (df87d5cf12b1397be7495a04cab2db6239b227a8-refs/branch-heads/6668@{#1420}) on port 6110
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 6110.
+Sep 25, 2024 1:21:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyTabCustomization" classname="com.training.testcases.RandomScenariosTest" time="23.736">
+    <failure message="Cannot locate element with text: Subscriptions&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Air-163.hsd1.ca.comcast.net&apos;, ip: &apos;2601:646:8900:8f80:0:0:0:46fa%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Subscriptions
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Air-163.hsd1.ca.comcast.net', ip: '2601:646:8900:8f80:0:0:0:46fa%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '15.0.1'
+Driver info: driver.version: unknown
+	at com.training.testcases.RandomScenariosTest.verifyTabCustomization(RandomScenariosTest.java:105)
+</failure>
+    <system-out><![CDATA[*** Test execution verifyEditedLastName failed...
+/
+*** Running test method verifyTabCustomization...
+2024-09-25 13:21:43 INFO  Log:17 - ****************           -S-T-A-R-T-verifyTabCustomization Test Started       ****************
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 129.0.6668.70 (df87d5cf12b1397be7495a04cab2db6239b227a8-refs/branch-heads/6668@{#1420}) on port 43719
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 43719.
+Sep 25, 2024 1:21:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

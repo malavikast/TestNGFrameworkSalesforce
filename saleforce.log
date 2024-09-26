@@ -219,3 +219,43 @@
 2024-09-25 12:03:11,004 INFO  [Log] ****************           -S-T-A-R-T-viewContactName Test Started       **************** 
 2024-09-25 12:04:32,902 INFO  [Log] ****************           -S-T-A-R-T-createNewAccount Test Started       **************** 
 2024-09-25 12:05:40,484 INFO  [Log] ****************           -S-T-A-R-T-verifyTabCustomization Test Started       **************** 
+2024-09-25 13:06:05,422 INFO  [Log] ****************           -S-T-A-R-T-Login Test Started       **************** 
+2024-09-25 13:06:06,430 INFO  [Log] Sucessfully entered the usernamemalavika@mst.com 
+2024-09-25 13:06:21,862 INFO  [Log] Sucessfully entered the passwordjithesh@13 
+2024-09-25 13:08:28,034 INFO  [Log] ****************           -S-T-A-R-T-Login Test Started       **************** 
+2024-09-25 13:08:29,662 INFO  [Log] Sucessfully entered the usernamemalavika@mst.com 
+2024-09-25 13:08:44,280 INFO  [Log] Sucessfully entered the passwordjithesh@13 
+2024-09-25 13:10:30,882 INFO  [Log] ****************           -S-T-A-R-T-Login Test Started       **************** 
+2024-09-25 13:10:47,699 INFO  [Log] Sucessfully entered the usernamemalavika@mst.com 
+2024-09-25 13:10:48,085 INFO  [Log] Sucessfully entered the passwordjithesh@13 
+2024-09-25 13:11:00,886 INFO  [Log] ****************           -S-T-A-R-T-Create Account Report Test Started       **************** 
+2024-09-25 13:11:02,208 INFO  [Log] Sucessfully entered the usernamemalavika@mst.com 
+2024-09-25 13:11:17,594 INFO  [Log] Sucessfully entered the passwordjithesh@13 
+2024-09-25 13:11:46,059 INFO  [Log] ****************           -S-T-A-R-T-Account Test Started       **************** 
+2024-09-25 13:11:47,311 INFO  [Log] Sucessfully entered the usernamemalavika@mst.com 
+2024-09-25 13:11:57,241 INFO  [Log] Sucessfully entered the passwordjithesh@13 
+2024-09-25 13:12:17,647 INFO  [Log] ****************           -S-T-A-R-T-New View Test Started       **************** 
+2024-09-25 13:12:18,949 INFO  [Log] Sucessfully entered the usernamemalavika@mst.com 
+2024-09-25 13:12:33,401 INFO  [Log] Sucessfully entered the passwordjithesh@13 
+2024-09-25 13:12:50,293 INFO  [Log] ****************           -S-T-A-R-T-Edit View Test Started       **************** 
+2024-09-25 13:12:51,159 INFO  [Log] Sucessfully entered the usernamemalavika@mst.com 
+2024-09-25 13:12:51,436 INFO  [Log] Sucessfully entered the passwordjithesh@13 
+2024-09-25 13:13:07,931 INFO  [Log] Sucessfully entered the usernamemalavika@mst.com 
+2024-09-25 13:13:08,265 INFO  [Log] Sucessfully entered the passwordjithesh@13 
+2024-09-25 13:13:28,361 INFO  [Log] ****************           -S-T-A-R-T-CreateNewOpportunity Test Started       **************** 
+2024-09-25 13:13:49,680 INFO  [Log] ****************           -S-T-A-R-T-Opportunities Drop Down Test Started       **************** 
+2024-09-25 13:14:23,428 INFO  [Log] ****************           -S-T-A-R-T-OpportunitiesPipeline Test Started       **************** 
+2024-09-25 13:14:55,722 INFO  [Log] ****************           -S-T-A-R-T-QSummaryReport Test Started       **************** 
+2024-09-25 13:15:15,440 INFO  [Log] ****************           -S-T-A-R-T-StuckOpportunities Test Started       **************** 
+2024-09-25 13:15:34,191 INFO  [Log] ****************           -S-T-A-R-T-GoToLeads Test Started       **************** 
+2024-09-25 13:15:50,839 INFO  [Log] ****************           -S-T-A-R-T-GoToLeadsDropDown Test Started       **************** 
+2024-09-25 13:16:40,115 INFO  [Log] ****************           -S-T-A-R-T-createNewAccount Test Started       **************** 
+2024-09-25 13:17:13,070 INFO  [Log] ****************           -S-T-A-R-T-createNewContactError Test Started       **************** 
+2024-09-25 13:17:30,118 INFO  [Log] ****************           -S-T-A-R-T-createNewViewinContactPage Test Started       **************** 
+2024-09-25 13:18:01,860 INFO  [Log] ****************           -S-T-A-R-T-gotoMyContactsView Test Started       **************** 
+2024-09-25 13:18:17,803 INFO  [Log] ****************           -S-T-A-R-T-newViewinContactPageCancel Test Started       **************** 
+2024-09-25 13:18:50,057 INFO  [Log] ****************           -S-T-A-R-T-newViewinContactPageError Test Started       **************** 
+2024-09-25 13:19:08,257 INFO  [Log] ****************           -S-T-A-R-T-createNewViewinContactPage Test Started       **************** 
+2024-09-25 13:19:39,035 INFO  [Log] ****************           -S-T-A-R-T-viewContactName Test Started       **************** 
+2024-09-25 13:21:06,260 INFO  [Log] ****************           -S-T-A-R-T-createNewAccount Test Started       **************** 
+2024-09-25 13:21:43,705 INFO  [Log] ****************           -S-T-A-R-T-verifyTabCustomization Test Started       **************** 
