@@ -15,9 +15,9 @@
 <parameter name="newoptyname" value="Opty5"></parameter>
 <parameter name="newoptyaccname" value="Ayaan"></parameter>
 
- <listeners>
+<!--  <listeners>
 <listener class-name="com.training.listeners.TestListener"></listener>
-</listeners>
+</listeners> -->
 
 <test name="login">
   <classes>
